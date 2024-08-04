@@ -1,0 +1,75 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fondo muy suave */
+    color: #333; /* Color de texto principal */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Estilo del título */
+h1 {
+    color: #6c5b7b; /* Color pastel púrpura */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo del reloj */
+.clock {
+    text-align: center;
+    font-size: 1.2em;
+    color: #355c7d; /* Color pastel azul */
+    margin-bottom: 20px;
+}
+
+/* Estilo de la lista de tareas */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    background-color: #f5f5f5; /* Fondo gris claro para cada ítem */
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye el espacio entre el texto y la casilla */
+    font-size: 1em;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Casillas de verificación */
+.task-list input[type="checkbox"] {
+    margin-left: 10px; /* Añade un margen a la izquierda para la casilla */
+    accent-color: #f7aef8; /* Color pastel rosa para las casillas de verificación */
+}
+
+/* Colores específicos según la persona */
+.task-elias {
+    background-color: #d5a6c4; /* Color morado claro para Elías */
+}
+
+.task-dario {
+    background-color: #f6b93b; /* Color naranja claro para Darío */
+}
+
+.task-triana {
+    background-color: #b6d7a8; /* Color verde claro para Triana */
+}
